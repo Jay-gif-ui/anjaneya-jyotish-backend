@@ -167,4 +167,11 @@ app.post("/api/webhook/cashfree", (req, res) => {
   res.json({ received: true });
 });
 
-app.listen(PORT, () => console.log(`Cashfree backend running on port ${PORT}`));
+// app.listen(PORT, () => console.log(`Cashfree backend running on port ${PORT}`));
+if (process.env.NODE_ENV !== "production") {
+  app.listen(PORT, () => {
+    console.log(`Cashfree backend running on port ${PORT}`);
+  });
+}
+
+export default app;
