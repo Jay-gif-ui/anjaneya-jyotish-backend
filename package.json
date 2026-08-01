@@ -7,6 +7,9 @@
     "dev": "node server.js",
     "start": "node server.js"
   },
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
