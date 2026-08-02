@@ -31,7 +31,7 @@ const FRONTEND_BASE_URL = process.env.FRONTEND_BASE_URL || "http://localhost:808
 
 const SERVICES = {
   kundali: { name: "Kundali Reading & Analysis", amount: 2500 },
-  horoscope: { name: "Daily Horoscope", amount: 99 },
+  horoscope: { name: "Daily Horoscope", amount: 2 },
   compatibility: { name: "Compatibility Analysis", amount: 299 },
   career: { name: "Career Counseling", amount: 499 }
 };
